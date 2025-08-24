@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Calcv2.css">
     <title>Calculator</title>
 </head>
+
 <body>
-    <div class="container">
-        <input id="displayNums" placeholder="0" readonly>
-        <div id="keys">
-            <button id="ACBtn" class="greyBtns" >AC</button>
-            <button class="greyBtns" onclick="turnTo()">+/-</button>
-            <button class="greyBtns" onclick="toDisplay('/100')">%</button>
-            <button class="orangeBtns" onclick="toDisplay('/')">÷</button>
-            <button  onclick="toDisplay('7')">7</button>
-            <button onclick="toDisplay('8')">8</button>
-            <button onclick="toDisplay('9')">9</button>
-            <button class="orangeBtns" onclick="toDisplay('*')">x</button>
-            <button onclick="toDisplay('4')">4</button>
-            <button onclick="toDisplay('5')">5</button>
-            <button onclick="toDisplay('6')">6</button>
-            <button class="orangeBtns" onclick="toDisplay('-')">-</button>
-            <button onclick="toDisplay('1')">1</button>
-            <button onclick="toDisplay('2')">2</button>
-            <button onclick="toDisplay('3')">3</button>
-            <button class="orangeBtns" onclick="toDisplay('+')">+</button>
-            <button>calc</button>
-            <button onclick="toDisplay('0')">0</button>
-            <button onclick="toDisplay('.')">.</button>
-            <button class="orangeBtns" onclick="calculate()">=</button>
+    <div class="background">
+        <div class="content">
+            <div class="container">
+                <input id="displayNums" placeholder="0" readonly>
+                <div id="keys">
+                    <button id="ACBtn" class="greyBtns">AC</button>
+                    <button class="greyBtns" onclick="turnTo()">+/-</button>
+                    <button class="greyBtns" onclick="toDisplay('/100')">%</button>
+                    <button class="orangeBtns" onclick="toDisplay('/')">÷</button>
+                    <button onclick="toDisplay('7')">7</button>
+                    <button onclick="toDisplay('8')">8</button>
+                    <button onclick="toDisplay('9')">9</button>
+                    <button class="orangeBtns" onclick="toDisplay('*')">x</button>
+                    <button onclick="toDisplay('4')">4</button>
+                    <button onclick="toDisplay('5')">5</button>
+                    <button onclick="toDisplay('6')">6</button>
+                    <button class="orangeBtns" onclick="toDisplay('-')">-</button>
+                    <button onclick="toDisplay('1')">1</button>
+                    <button onclick="toDisplay('2')">2</button>
+                    <button onclick="toDisplay('3')">3</button>
+                    <button class="orangeBtns" onclick="toDisplay('+')">+</button>
+                    <button>calc</button>
+                    <button onclick="toDisplay('0')">0</button>
+                    <button onclick="toDisplay('.')">.</button>
+                    <button class="orangeBtns" onclick="calculate()">=</button>
+                </div>
+            </div>
         </div>
     </div>
-   
+
     <script src="Calcv2.js"></script>
 </body>
+
 </html>

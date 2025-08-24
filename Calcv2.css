@@ -1,45 +1,74 @@
-body{
+body {
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffffff;
 }
 
-.container{
+.background {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image:
+        radial-gradient(circle at 50% 100%, rgba(70, 85, 110, 0.5) 0%, transparent 60%),
+        radial-gradient(circle at 50% 100%, rgba(99, 102, 241, 0.4) 0%, transparent 70%),
+        radial-gradient(circle at 50% 100%, rgba(181, 184, 208, 0.3) 0%, transparent 80%);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(6, 6, 6);
     border-radius: 17px;
     overflow: hidden;
     max-width: 500px;
-    box-shadow: 15px 13px 10px black;  
+    box-shadow: 15px 13px 10px black;
 }
 
-#displayNums{
+#displayNums {
 
     padding: 10px;
     font-size: 2.8rem;
     background-color: rgb(19, 19, 19);
     border: none;
     text-align: left;
-    color: white;  
-}
-
-#displayNums::placeHolder{
     color: white;
 }
 
-#keys{
-    display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    gap: 10px;
-    padding: 25px;
-    
+#displayNums::placeHolder {
+    color: white;
 }
 
-#keys button{
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
+#keys button {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -50,22 +79,23 @@ body{
     cursor: pointer;
 }
 
-#keys .orangeBtns{
+#keys .orangeBtns {
     background-color: rgb(237, 155, 1);
 }
 
-#keys .greyBtns{
+#keys .greyBtns {
     background-color: rgb(109, 109, 109);
 }
 
-#keys button:hover{
-    background-color:rgb(42, 42, 42); ;
+#keys button:hover {
+    background-color: rgb(42, 42, 42);
+    ;
 }
 
-#keys .orangeBtns:hover{
+#keys .orangeBtns:hover {
     background-color: rgb(210, 137, 2);
 }
 
-#keys .greyBtns:hover{
+#keys .greyBtns:hover {
     background-color: rgb(87, 87, 87);
 }

@@ -31,9 +31,8 @@ The app supports basic arithmetic operations and includes a familiar button layo
 
 ---
 
+## 🚀 Try It Out
 
-## If you want to run the app locally:
+👉 [Click here to try the Weather App](https://a-calculator-calc-madeby-yazant007.netlify.app/)  
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/YazanT007/apple-calculator.git
+---

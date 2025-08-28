@@ -33,6 +33,6 @@ The app supports basic arithmetic operations and includes a familiar button layo
 
 ## 🚀 Try It Out
 
-👉 [Click here to try the Weather App](https://a-calculator-calc-madeby-yazant007.netlify.app/)  
+👉 [Click here to try the Calculator](https://a-calculator-calc-madeby-yazant007.netlify.app/)  
 
 ---

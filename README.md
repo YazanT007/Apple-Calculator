@@ -5,7 +5,7 @@ The app supports basic arithmetic operations and includes a familiar button layo
 
 ---
 
-## ✨ Features
+## Features
 
 - **Basic operations**: Addition (+), Subtraction (-), Multiplication (×), Division (÷)  
 - **Utility functions**: Clear (AC), Toggle sign (+/-), Percentage (%), Delete Button (⌫)  
@@ -14,7 +14,7 @@ The app supports basic arithmetic operations and includes a familiar button layo
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5** → structure  
 - **CSS3** → styling 
@@ -22,7 +22,7 @@ The app supports basic arithmetic operations and includes a familiar button layo
 
 ---
 
-## 📸 App Preview
+## App Preview
 
 <img width="427" height="600" alt="image" src="https://github.com/user-attachments/assets/88b9de1d-8bfe-4fc7-afd6-d46eb224ab5f" /> 
 <img width="427" height="610" alt="image" src="https://github.com/user-attachments/assets/cb704462-067e-43fc-a5dd-e820dc520194" />
@@ -31,7 +31,7 @@ The app supports basic arithmetic operations and includes a familiar button layo
 
 ---
 
-## 🚀 Try It Out
+## Try It Out
 
 👉 [Click here to try the Calculator](https://a-calculator-calc-madeby-yazant007.netlify.app/)  
 
